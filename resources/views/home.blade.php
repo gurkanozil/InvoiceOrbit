@@ -8,6 +8,5 @@
     <div id="app">
         <homepage></homepage> <!-- This is where your Vue component will be rendered -->
     </div>
-    <script src="{{ mix('js/app.js') }}"></script>
 </body>
 </html> 
