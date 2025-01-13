@@ -2,10 +2,11 @@
 <html>
 <head>
     <title>Homepage</title>
+    @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 <body>
     <div id="app">
-        <homepage></homepage> <!-- This is where your Vue component isn't being rendered -->
+        <homepage></homepage> <!-- This is where your Vue component will be rendered -->
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>

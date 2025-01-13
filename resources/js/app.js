@@ -1,9 +1,7 @@
 import './bootstrap';
-import Vue from 'vue';
+import { createApp } from 'vue';
 import Homepage from './components/Homepage.vue';
 
-Vue.component('homepage', Homepage);
-
-const app = new Vue({
-    el: '#app',
-});
+const app = createApp({});
+app.component('homepage', Homepage);
+app.mount('#app');
