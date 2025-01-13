@@ -13,7 +13,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your.url.from.vercel.app",
+        "APP_URL": "https://invoice-orbit-blond.vercel.app/",
         "APP_KEY": "base64:OlHo6O5Ksxa9KS2KxhvbapKLEU7zCZF90rZtsP9Vp8I=",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
